@@ -438,6 +438,10 @@ section{
 	color: var(--light-color);
 }
 
+.footer .box-container .box img{
+	height: 6.1rem;
+}
+
 .footer .credit{
 	text-align: center;
 	margin-top: 3rem;
