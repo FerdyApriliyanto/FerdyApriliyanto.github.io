@@ -162,7 +162,7 @@ section{
 }
 
 .nav-bg{
-	background: linear-gradient(160deg, var(--white), transparent 40%), url("../images/nav_bg.jpg") no-repeat;
+	background-color: whitesmoke;
 	background-size: cover;
 	background-position: center;
 	height: 100%;
@@ -298,20 +298,23 @@ section{
 	width: 100%;
 	object-fit: cover;
 	margin-bottom: .5rem;
-	-webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+	-webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);
   
-	transform-origin:center;
-	transform:perspective(800px) rotateY(25deg);
-	transition:0.5s;
+	-webkit-transform: perspective(800px) rotateY(25deg);
+			transform: translateZ(90);
+			transform-origin: center;
+	transition:all 0.3s;
 }
 
 .team .box-container:hover .box img{
 	opacity:0.3;
+	-webkit-transform: translateZ(90);
 }
 
 .team .box-container .box img:hover{
-	transform:perspective(800px)       rotateY(0deg);
-  	opacity:1;
+	opacity:1;
+	-webkit-transform: perspective(800px) rotateY(0deg);
+			transform: translateZ(0);
 }
 
 .team .box-container .box h3{
@@ -440,7 +443,7 @@ section{
 
 	.header .flex .navbar.active{
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-		background-image:linear-gradient(160deg, var(--white), transparent 40%), url("../images/nav_bg.jpg");
+		background-color: whitesmoke;
 	}
 
 	.header .flex .navbar a{
@@ -462,6 +465,18 @@ section{
 
 	.about .content h3{
 		font-size: 3rem;
+	}
+
+	.division .heading img{
+		height: 12rem;
+	}
+
+	.gallery .heading img{
+		height: 12rem;
+	}
+
+	.contact .heading img{
+		height: 11rem;
 	}
 }
 
