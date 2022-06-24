@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-	<script>
-	  $(document).ready(function () {
-	  $(window).load(function(){
-	  $(".preloader").delay(3000).fadeOut();
-	 });
-	});
-	</script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ten2One</title>
@@ -21,310 +15,342 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
-<div class="preloader">
-  <div class="loading">
-    <img src="images/loading.gif" width="150">
-    <p>Please Wait</p>
-  </div>
-</div>
-<!-- header section -->
-<header class="header">
-	<div class="nav-bg">
-		<section class="flex">
-			<a href="#home" class="logo"><img src="images/Ten2One_final.png"></a>
+	<main>
+		<!-- header section -->
+		<header class="header">
+			<div class="nav-bg">
+				<section class="flex">
+					<a href="#home" class="logo"><img src="images/Ten2One_navbar_resize.png"></a>
 
-			<nav class="navbar">
-				<a href="#home">Home</a>
-				<a href="#about">About</a>
-				<a href="#gallery">Gallery</a>
-				<a href="#team">Team</a>
-				<a href="#contact">Contact</a>
-			</nav>
+					<nav class="navbar">
+						<a href="#home">Home</a>
+						<a href="#about">About</a>
+						<a href="#gallery">Gallery</a>
+						<a href="#team">Team</a>
+						<a href="#contact">Contact</a>
+					</nav>
 
-			<div id="menu-btn" class="fas fa-bars"></div>
-		</section>
-	</div>
-</header>
-<!-- header section ends -->
-
-<!-- home section -->
-<div class="home-bg">
-	<section class="home" id="home">
-		<div class="content">
-			<img src="images/Ten2One_tlogo_final_nobg.png">
-			<h3>Ten2One</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-			<a href="#about" class="btn">About Us</a>
-		</div>
-	</section>
-</div>
-<!-- home section ends -->
-
-
-<!-- about section -->
-<section class="about" id="about">
-	<div class="image">
-		<img src="images/Ten2one.gif">
-	</div>
-
-	<div class="content">
-		<h3>Our Story</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-		<a href="#team" class="btn">Our Team</a>
-	</div>
-</section>
-<!-- about section ends -->
-
-<!-- division section -->
-<div class="all-bg">
-	<section class="division">
-		<div data-aos="fade-up">
-			<div class="heading">
-				<img src="images/Ten2One_tlogo_final_nobg.png">
-				<h3>Our Division</h3>
+					<div id="menu-btn" class="fas fa-bars"></div>
+				</section>
 			</div>
+		</header>
+		<!-- header section ends -->
 
-			<div class="box-container">
-				<div class="box">
-					<img src="images/valorant.png">
-					<h3>Valorant</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<!-- home section -->
+		<div class="home-bg">
+			<section class="home" id="home">
+				<article class="content">
+					<img src="images/Ten2One_banner.png">
+					<p>Ten2one is a simple and unofficial team consisting of a group of students who like to play
+						games. We are divided into several divisions based on the type of game played, from old games to
+						new games.</p>
+					<a href="#about" class="btn">About Us</a>
+				</article>
+			</section>
+		</div>
+		<!-- home section ends -->
+
+		<!-- about section -->
+		<div class="about-bg">
+			<section class="about" id="about">
+				<article class="content">
+					<h3>Founder's Profile</h3>
+					<p>Ferdy Apriliyanto was the originator of the idea for the formation of this team several years
+						ago. currently he is in college and has entered the second semester. Ferdy has started studying coding for
+						the first time since entering vocational school. he also has another hobby, which is playing
+						games, usually he plays FPS themed games and sometimes holds live streaming via the famous
+						platform Twitch.</p>
+					<a href="#team" class="btn">Our Team</a>
+				</article>
+				<aside>
+					<header>
+						<h2>Ferdy Apriliyanto</h2>
+						<figure>
+							<img src="./images/profile.png">
+							<figcaption>Creator</figcaption>
+						</figure>
+					</header>
+				</aside>
+			</section>
+		</div>
+		<!-- about section ends -->
+
+		<!-- division section -->
+		<div class="all-bg">
+			<section class="division">
+				<div data-aos="fade-up">
+					<div class="heading">
+						<img src="images/Ten2One_emblem.png">
+						<h3>Our Division</h3>
+					</div>
+
+					<div class="flex-container">
+						<div class="box">
+							<img src="images/valorant.png">
+							<h3>Valorant</h3>
+							<p>Valorant is a free-to-play first-person hero shooter developed and published by Riot
+								Games.
+								official release on June 2, 2020.
+							</p>
+						</div>
+
+						<div class="box">
+							<img src="images/overwatch.png">
+							<h3>Overwatch</h3>
+							<p>Overwatch is a team-based multiplayer first-person shooter game developed and published
+								by Blizzard Entertainment.
+							</p>
+						</div>
+
+						<div class="box">
+							<img src="images/lol.png">
+							<h3>League of Legends</h3>
+							<p>League of Legends, commonly referred to as League,Inspired by Defense of the Ancients,
+								a custom map for Warcraft III.</p>
+						</div>
+
+						<div class="box">
+							<img src="images/csgo.png">
+							<h3>Counter-Strike:GO</h3>
+							<p>Counter-Strike: Global Offensive is a 2012 multiplayer first-person shooter developed
+								by Valve and Hidden Path Entertainment.
+							</p>
+						</div>
+					</div>
 				</div>
-			
-				<div class="box">
-					<img src="images/overwatch.png">
-					<h3>Overwatch</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</section>
+			<!-- division section ends -->
+
+			<!-- gallery section -->
+			<section class="gallery" id="gallery">
+				<div data-aos="fade-up">
+					<div class="heading">
+						<img src="images/Ten2One_emblem.png">
+						<h3>Our Gallery</h3>
+					</div>
+
+					<div class="flex-container">
+						<div class="flex-column">
+							<div class="flex-row">
+								<div class="flex-box"><img src="images/gallery1.png"></div>
+								<div class="flex-box"><img src="images/gallery2.png"></div>
+								<div class="flex-box"><img src="images/gallery3.png"></div>
+							</div>
+							<div class="flex-row">
+								<div class="flex-box"><img src="images/gallery4.png"></div>
+								<div class="flex-box"><img src="images/gallery5.png"></div>
+								<div class="flex-box"><img src="images/gallery6.png"></div>
+							</div>
+						</div>
+					</div>
 				</div>
-			
-				<div class="box">
-					<img src="images/lol.png">
-					<h3>League of Legends</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</section>
+			<!-- gallery section ends -->
+
+			<!-- team section -->
+			<section class="team" id="team">
+				<div data-aos="fade-up">
+					<div class="heading">
+						<img src="images/team.png">
+						<h3>Meet Our Teams Member</h3>
+					</div>
+
+					<div class="flex-container">
+						<div class="flex-column">
+							<div class="flex-row">
+								<div class="card-wrapper">
+									<div class="card">
+										<div class="front">
+											<img src="images/arya_ryaa_prasbawara.jpg" alt="Ryaa">
+										</div>
+										<div class="back">
+											<div class="social-icons">
+												<p>Ryaa</p>
+												<br>
+												<a href="https://www.instagram.com/aryaa.__/"><i
+														class="fa-brands fa-instagram fa-2xl"></i></a>
+												<a href="https://www.twitch.tv/zer0beat04"><i
+														class="fa-brands fa-twitch fa-2xl"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-wrapper">
+									<div class="card">
+										<div class="front">
+											<img src="images/neville_dorilele_cornelius.jpg" alt="doriLele">
+										</div>
+										<div class="back">
+											<div class="social-icons">
+												<p>doriLele</p>
+												<br>
+												<a href="https://www.instagram.com/nipengg/"><i
+														class="fa-brands fa-instagram fa-2xl"></i></a>
+												<a href="https://www.facebook.com/neville.corneliustj"><i
+														class="fa-brands fa-facebook fa-2xl"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-wrapper">
+									<div class="card">
+										<div class="front">
+											<img src="images/ferdy_magus_apriliyanto.jpg" alt="Magus">
+										</div>
+										<div class="back">
+											<div class="social-icons">
+												<p>Magus</p>
+												<br>
+												<a href="https://www.instagram.com/ferdyapriliyanto/"><i
+														class="fa-brands fa-instagram fa-2xl"></i></a>
+												<a href="https://www.twitch.tv/magus_ch"> <i
+														class="fa-brands fa-twitch fa-2xl"></i> </a>
+												<a href="https://www.facebook.com/ferdy.apriliyanto.5/"><i
+														class="fa-brands fa-facebook fa-2xl"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="flex-row">
+								<div class="card-wrapper">
+									<div class="card">
+										<div class="front">
+											<img src="images/fransisco_orlyn_leonardo.jpg" alt="Orlyn">
+										</div>
+										<div class="back">
+											<div class="social-icons">
+												<p>Orlyn</p>
+												<br>
+												<a href="https://www.instagram.com/imfrans_12/"><i
+														class="fa-brands fa-instagram fa-2xl"></i></a>
+												<a href="https://www.facebook.com/profile.php?id=100008246554000"><i
+														class="fa-brands fa-facebook fa-2xl"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-wrapper">
+									<div class="card">
+										<div class="front">
+											<img src="images/hari_harry76_yanuar.jpg" alt="Harry76">
+										</div>
+										<div class="back">
+											<div class="social-icons">
+												<p>Harry76</p>
+												<br>
+												<a href="https://www.instagram.com/_hariyanuar_/"><i
+														class="fa-brands fa-instagram fa-2xl"></i></a>
+												<a href="https://www.twitch.tv/redact76"><i
+														class="fa-brands fa-twitch fa-2xl"></i></a>
+												<a href="https://www.facebook.com/hariyanuarhuda"><i
+														class="fa-brands fa-facebook fa-2xl"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-wrapper">
+									<div class="card">
+										<div class="front">
+											<img src="images/maulana_reime5_ryan.jpg" alt="Reime5">
+										</div>
+										<div class="back">
+											<div class="social-icons">
+												<p>Reime5</p>
+												<br>
+												<a href="https://www.instagram.com/maulana_ryan12/"><i
+														class="fa-brands fa-instagram fa-2xl"></i></a>
+												<a href="https://www.twitch.tv/vividmusic10"><i
+														class="fa-brands fa-twitch fa-2xl"></i></a>
+												<a href="https://www.facebook.com/profile.php?id=100006319026569"><i
+														class="fa-brands fa-facebook fa-2xl"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			
-				<div class="box">
-					<img src="images/csgo.png">
-					<h3>Counter-Strike:GO</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</section>
+			<!-- team section ends -->
+
+			<!-- contact section -->
+			<section class="contact" id="contact">
+				<div class="heading">
+					<img src="images/contact.png">
+					<h3>Contact Us</h3>
 				</div>
-			</div>
-		</div>
-	</section>
-<!-- division section ends -->
 
-<!-- gallery section -->
-<section class="gallery" id="gallery">
-	<div data-aos="fade-up">
-		<div class="heading">
-			<img src="images/Ten2One_tlogo_final_nobg.png">
-			<h3>Our Gallery</h3>
-		</div>
+				<div class="row">
+					<div class="image">
+						<img src="images/contact_us.png">
+					</div>
 
-		<div class="box-container">
-			<img src="images/gallery_dummy.jpg">
-			<img src="images/gallery_dummy.jpg">
-			<img src="images/gallery_dummy.jpg">
-			<img src="images/gallery_dummy.jpg">
-			<img src="images/gallery_dummy.jpg">
-			<img src="images/gallery_dummy.jpg">
-		</div>
-	</div>
-</section>
-<!-- gallery section ends -->
+					<form action="https://formsubmit.co/ferdywebhost1@gmail.com" method="post">
+						<h3>Feel Free to Contact Us!</h3>
+						<input type="text" name="name" required class="box" maxlength="20"
+							placeholder="Enter Your Name">
+						<input type="number" name="number" required class="box" maxlength="20"
+							placeholder="Enter Your Number" min="0" max="999999999999"
+							onkeypress="if (this.value.length == 12) return false">
 
-<!-- team section -->
-<section class="team" id="team">
-	<div data-aos="fade-up">
-		<div class="heading">
-			<img src="images/team.png">
-			<h3>Meet Our Teams Member</h3>
-		</div>
+						<input type="submit" name="send" value="send message" class="btn">
+					</form>
+				</div>
+			</section>
+			<!-- contact section ends -->
 
-		<div class="box-container">
-			<div class="card-wrapper">
-				<div class="card">
-			    <div class="front">
-			    	<img src="images/dummy.png" alt="Avatar">
-			    </div>
-			    <div class="back">
-						 <div class="social-icons">
-						   <p>AryaP</p>
-						   <br>
-							 <i class="fa-brands fa-instagram fa-2xl"></i>
-							 <i class="fa-brands fa-twitch fa-2xl"></i>
-							 <i class="fa-brands fa-facebook fa-2xl"></i>
-							 <i class="fa-brands fa-twitter fa-2xl"></i>
-							 <i class="fa-brands fa-discord fa-2xl"></i>
+			<!-- footer section -->
+			<footer class="footer">
+				<div class="flex-container">
+					<div class="flex-column">
+						<div class="flex-row">
+							<div class="box">
+								<img src="images/mail.png">
+								<h3>Our Email</h3>
+								<p>ferdya7414@gmail.com</p>
+							</div>
+
+							<div class="box">
+								<a href="https://discord.gg/269a9Yjk"><img src="images/discord.png"></a>
+								<h3>Our Discord</h3>
+								<p>https://discord.gg/269a9Yjk</p>
+							</div>
+
+							<div class="box">
+								<a href="https://www.twitch.tv/magus_ch"><img src="images/twitch.png"></a>
+								<h3>Our Twitch Channel</h3>
+								<p>twitch.tv/magus_ch</p>
+							</div>
+
+							<div class="box">
+								<img src="images/number.png">
+								<h3>Our Number</h3>
+								<p>+62-812-9610-5392</p>
+							</div>
 						</div>
-			    </div>
-			  </div>
-		  </div>
-
-			<div class="card-wrapper">
-				<div class="card">
-			    <div class="front">
-			    	<img src="images/dummy.png" alt="Avatar">
-			    </div>
-			    <div class="back">
-						 <div class="social-icons">
-						   <p>doriLele</p>
-						   <br>
-							 <i class="fa-brands fa-instagram fa-2xl"></i>
-							 <i class="fa-brands fa-twitch fa-2xl"></i>
-							 <i class="fa-brands fa-facebook fa-2xl"></i>
-							 <i class="fa-brands fa-twitter fa-2xl"></i>
-							 <i class="fa-brands fa-discord fa-2xl"></i>
+						<div class="credit">&copy; copyright @ 2022 by <span> Magus </span> | all rights reserved!
 						</div>
-			    </div>
-			  </div>
-		  </div>
-		  
-			<div class="card-wrapper">
-				<div class="card">
-			    <div class="front">
-			    	<img src="images/dummy.png" alt="Avatar">
-			    </div>
-			    <div class="back">
-						 <div class="social-icons">
-						   <p>Magus</p>
-						   <br>
-							 <i class="fa-brands fa-instagram fa-2xl"></i>
-							 <i class="fa-brands fa-twitch fa-2xl"></i>
-							 <i class="fa-brands fa-facebook fa-2xl"></i>
-							 <i class="fa-brands fa-twitter fa-2xl"></i>
-							 <i class="fa-brands fa-discord fa-2xl"></i>
-						</div>
-			    </div>
-			  </div>
-		  </div>
-
-			<div class="card-wrapper">
-				<div class="card">
-			    <div class="front">
-			    	<img src="images/dummy.png" alt="Avatar">
-			    </div>
-			    <div class="back">
-						 <div class="social-icons">
-						   <p>Orlyn</p>
-						   <br>
-							 <i class="fa-brands fa-instagram fa-2xl"></i>
-							 <i class="fa-brands fa-twitch fa-2xl"></i>
-							 <i class="fa-brands fa-facebook fa-2xl"></i>
-							 <i class="fa-brands fa-twitter fa-2xl"></i>
-							 <i class="fa-brands fa-discord fa-2xl"></i>
-						</div>
-			    </div>
-			  </div>
-		  </div>
-
-			<div class="card-wrapper">
-				<div class="card">
-			    <div class="front">
-			    	<img src="images/dummy.png" alt="Avatar">
-			    </div>
-			    <div class="back">
-						 <div class="social-icons">
-						   <p>Harry76</p>
-						   <br>
-							 <i class="fa-brands fa-instagram fa-2xl"></i>
-							 <i class="fa-brands fa-twitch fa-2xl"></i>
-							 <i class="fa-brands fa-facebook fa-2xl"></i>
-							 <i class="fa-brands fa-twitter fa-2xl"></i>
-							 <i class="fa-brands fa-discord fa-2xl"></i>
-						</div>
-			    </div>
-			  </div>
-		  </div>
-
-			<div class="card-wrapper">
-				<div class="card">
-			    <div class="front">
-			    	<img src="images/dummy.png" alt="Avatar">
-			    </div>
-			    <div class="back">
-						 <div class="social-icons">
-						   <p>Reime5</p>
-						   <br>
-							 <i class="fa-brands fa-instagram fa-2xl"></i>
-							 <i class="fa-brands fa-twitch fa-2xl"></i>
-							 <i class="fa-brands fa-facebook fa-2xl"></i>
-							 <i class="fa-brands fa-twitter fa-2xl"></i>
-							 <i class="fa-brands fa-discord fa-2xl"></i>
-						</div>
-			    </div>
-			  </div>
-		  </div>
-
+					</div>
+				</div>
+			</footer>
 		</div>
-	</div>
-</section>
-<!-- team section ends -->
+		<!-- footer section ends -->
 
-<!-- contact section -->
-<section class="contact" id="contact">
-	<div class="heading">
-		<img src="images/contact.png">
-		<h3>Contact Us</h3>
-	</div>
-
-	<div class="row">
-		<div class="image">
-			<img src="images/contact_us.png">
-		</div>
-
-		<form action="" method="post">
-			<h3>Tell Us What You Think About Our Team!</h3>
-			<input type="text" name="name" required class="box" maxlength="20" placeholder="Enter Your Name">
-			<input type="number" name="number" required class="box" maxlength="20" placeholder="Enter Your Number" min="0" max="999999999999" onkeypress="if (this.value.length == 12) return false">
-
-			<input type="submit" name="send" value="send message" class="btn">
-		</form>
-	</div>
-</section>
-<!-- contact section ends -->
-
-<!-- footer section -->
-<section class="footer">
-	<div class="box-container">
-		<div class="box">
-			<img src="images/mail.png">
-			<h3>Our Email</h3>
-			<p>example@exam.com</p>
-			<p>example2@exam.com</p>
-		</div>
-
-		<div class="box">
-			<img src="images/discord.png">
-			<h3>Our Discord</h3>
-			<p>example_discord.link</p>
-		</div>
-
-		<div class="box">
-			<img src="images/twitch.png">
-			<h3>Our Twitch Channel</h3>
-			<p>example_twitch.link</p>
-		</div>
-
-		<div class="box">
-			<img src="images/number.png">
-			<h3>Our Number</h3>
-			<p>+123-456-789</p>
-			<p>+122-344-556</p>
-		</div>
-	</div>
-
-	<div class="credit">&copy; copyright @ 2022 by <span> F </span> | all rights reserved! </div>
-</section>
-</div>
-<!-- footer section ends -->
-
-<!-- custom js file -->
-<script src="js/script.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+		<!-- custom js file -->
+		<script src="js/script.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</main>
 </body>
+
 </html>
